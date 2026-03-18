@@ -16,6 +16,16 @@ This is my personal Fastfetch configuration, customized to fit my workflow and a
 sudo pacman -S fastfetch
 yay -S pokemon-colorscripts
 ```
+If you do not want to use an AUR helper you can also install [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) using this method
+```bash
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+cd pokemon-colorscripts
+sudo ./install.sh
+```
+Optional (deleting the copied folder) (only do this if you used the second method to install pokemon colorscripts):
+```bash
+sudo rm -rf ~/pokemon-colorscripts
+```
 
 ### Fedora 
 
@@ -25,7 +35,10 @@ git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
 sudo ./install.sh
 ```
-
+Optional (deleting the copied folder):
+```bash
+sudo rm -rf ~/pokemon-colorscripts
+``` 
 ### Debian/Ubuntu
 
 ```bash
@@ -34,7 +47,10 @@ git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
 sudo ./install.sh
 ```
-
+Optional (deleting the copied folder):
+```bash
+sudo rm -rf ~/pokemon-colorscripts
+```
 # Applying the config
 
 1. Download the `config.jsonc` file from this repository.
