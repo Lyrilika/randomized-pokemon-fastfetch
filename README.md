@@ -53,7 +53,7 @@ sudo rm -rf ~/pokemon-colorscripts
 ```
 # Applying the config
 
-1. Download the `config.jsonc` file from this repository.
+1. Download the `config.jsonc` file from the releases.
 
 2. Move it to your Fastfetch config directory (`~/.config/fastfetch/`)
 
