@@ -10,12 +10,31 @@ This is my personal Fastfetch configuration, customized to fit my workflow and a
 
 ## Installing dependencies
 
-Arch/Arch-based: 
+### Arch/Arch-based: 
 
-  ```bash
+```bash
 sudo pacman -S fastfetch
 yay -S pokemon-colorscripts
 ```
+
+### Fedora 
+
+```bash
+sudo dnf install fastfetch git
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+cd pokemon-colorscripts
+sudo ./install.sh
+```
+
+### Debian/Ubuntu
+
+```bash
+sudo apt install fastfetch git
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+cd pokemon-colorscripts
+sudo ./install.sh
+```
+
 # Applying the config
 
 1. Download the `config.jsonc` file from this repository.
