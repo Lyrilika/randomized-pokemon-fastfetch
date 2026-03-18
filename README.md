@@ -51,6 +51,10 @@ Optional (deleting the copied folder):
 ```bash
 sudo rm -rf ~/pokemon-colorscripts
 ```
+### If you face any issues installing pokemon-colorscripts
+
+Follow install instructions from the pokescript repo [here (github)](https://github.com/acxz/pokescript) [here (gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+
 # Applying the config
 
 1. Download the `config.jsonc` file from the releases.
