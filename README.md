@@ -20,7 +20,7 @@ yay -S pokemon-colorscripts
 
 1. Download the `config.jsonc` file from this repository.
 
-2. Move it to your Fastfetch config directory ('~/.config/fastfetch/')
+2. Move it to your Fastfetch config directory (`~/.config/fastfetch/`)
 
 Note: if you do not have a fastfetch folder in your .config folder simply create it and put the .jsonc inside or generate a config by using the command below and replacing the generated config.jsonc with the one from this repo
 
