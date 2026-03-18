@@ -53,7 +53,7 @@ sudo rm -rf ~/pokemon-colorscripts
 ```
 ### If you face any issues installing pokemon-colorscripts
 
-Follow install instructions from the pokescript repo [here (github)](https://github.com/acxz/pokescript) [here (gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+Follow install instructions from the pokemon-colorscripts repo [here (github)](https://github.com/acxz/pokescript) [here (gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
 
 # Applying the config
 
