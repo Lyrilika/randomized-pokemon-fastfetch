@@ -14,7 +14,7 @@ This is my personal Fastfetch configuration, customized to fit my preferences. I
 
 ```bash
 sudo pacman -S fastfetch
-yay -S pokemon-colorscripts
+yay -S pokemon-colorscripts-git
 ```
 If you do not want to use an AUR helper you can also install [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) using this method
 ```bash
