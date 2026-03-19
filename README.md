@@ -91,6 +91,8 @@ Follow install instructions from the pokemon-colorscripts repo [here (github)](h
 
 # Applying the config
 
+## Using my own config
+
 1. Download the `config.jsonc` file from the releases.
 
 2. Move it to your Fastfetch config directory (`~/.config/fastfetch/`)
@@ -100,3 +102,7 @@ Note: if you do not have a fastfetch folder in your .config folder simply create
 ```bash
 fastfetch --gen-config
 ```
+## Edit your own config
+
+```bash
+
