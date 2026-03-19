@@ -4,6 +4,13 @@
 
 This is my personal Fastfetch configuration, customized to fit my preferences. It uses [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) to display a random Pokémon sprite as the logo. Feel free to use this config as-is or modify anything to suit your own preferences.
 
+This repository is mainly for my own personal use whenever I set up a new system, so I can easily reuse my Fastfetch configuration.
+
+The guide here is also available for anyone who wants to add randomized Pokémon to their Fastfetch or use my config.
+
+Keep in mind that this guide is **very simplified** and aimed at inexperienced users, so it may feel overly basic to some people.
+
+
 # Dependencies
 - fastfetch
 - pokemon-colorscripts
@@ -16,7 +23,7 @@ This is my personal Fastfetch configuration, customized to fit my preferences. I
 sudo pacman -S fastfetch
 yay -S pokemon-colorscripts-git
 ```
-If you do not want to use an AUR helper you can also install [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) using this method
+If you do not want to use an AUR helper you can also install [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) using this method:
 ```bash
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
@@ -51,6 +58,33 @@ Optional (deleting the copied folder):
 ```bash
 sudo rm -rf ~/pokemon-colorscripts
 ```
+
+### OpenSUSE(Leap/Tumbleweed)
+```bash
+sudo zypper install fastfetch git
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+cd pokemon-colorscripts
+sudo ./install.sh
+```
+
+Optional (deleting the copied folder):
+```bash
+sudo rm -rf ~/pokemon-colorscripts
+```
+
+### Other
+
+simply install fastfetch using your distro's package manager if it isn't already installed, and install pokemoncolorscripts:
+```bash
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+cd pokemon-colorscripts
+sudo ./install.sh
+```
+Optional (deleting the copied folder):
+```bash
+sudo rm -rf ~/pokemon-colorscripts
+```
+
 ### If you face any issues installing pokemon-colorscripts
 
 Follow install instructions from the pokemon-colorscripts repo [here (github)](https://github.com/acxz/pokescript) [here (gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
