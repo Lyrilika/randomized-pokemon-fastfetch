@@ -74,7 +74,7 @@ sudo rm -rf ~/pokemon-colorscripts
 
 ### Other
 
-simply install fastfetch using your distro's package manager if it isn't already installed, and install pokemoncolorscripts:
+simply install fastfetch using your distro's package manager if it isn't already installed, and install [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts):
 ```bash
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 cd pokemon-colorscripts
@@ -87,7 +87,7 @@ sudo rm -rf ~/pokemon-colorscripts
 
 ### If you face any issues installing pokemon-colorscripts
 
-Follow install instructions from the pokemon-colorscripts repo [here (github)](https://github.com/acxz/pokescript) [here (gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+Follow install instructions from the pokemon-colorscripts repo [here (Github)](https://github.com/acxz/pokescript) [here (Gitlab)](https://gitlab.com/phoneybadger/pokemon-colorscripts)
 
 # Applying the config
 
@@ -97,7 +97,7 @@ Follow install instructions from the pokemon-colorscripts repo [here (github)](h
 
 2. Move it to your Fastfetch config directory (`~/.config/fastfetch/`)
 
-Note: if you do not have a fastfetch folder in your .config folder simply create the folder or generate a config by using the command below and replacing the generated config.jsonc with the one from this repo
+Note: if you do not have a fastfetch folder in your .config directory simply create the folder or generate a config by using the command below and replacing the generated config.jsonc with the one from this repo
 
 ```bash
 fastfetch --gen-config
@@ -107,17 +107,17 @@ fastfetch --gen-config
 
 1. Download the `vanilla-config.jsonc` file from the releases.
 
-2. Rename it to `config.jsonc` (Alternatively you can use `fastfetch --config path/to/vanilla-config.jsonc` to use that config without renaming it)
+2. Rename it to `config.jsonc` (Alternatively you can use `fastfetch --config path/to/vanilla-config.jsonc` instead of `fastfetch` to use that config without renaming it)
 
 3. Move it to your Fastfetch config directory (`~/.config/fastfetch/`)
 
-Note: if you do not have a fastfetch folder in your .config folder simply create the folder or generate a config by using the command below and replacing the generated config.jsonc with the one from this repo
+Note: if you do not have a fastfetch folder in your .config directory simply create the folder or generate a config by using the command below and replacing the generated config.jsonc with the one from this repo
 
 ```bash
 fastfetch --gen-config
 ```
 
-## Edit your own config
+## Add to your config
 
 Add to/Edit to your config:
 ```bash
@@ -125,4 +125,10 @@ Add to/Edit to your config:
         "type": "command-raw",
         "source": "pokemon-colorscripts --no-title --random"
         }}
+```
+# You should be done!
+
+Run: 
+```bash
+fastfetch
 ```
