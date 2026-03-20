@@ -103,7 +103,7 @@ Note: if you do not have a fastfetch folder in your .config folder simply create
 fastfetch --gen-config
 ```
 
-## Vanilla fastfetch with randomized pokemon (without my own config)
+## Default/Vanilla fastfetch with randomized pokemon (without my own config)
 
 1. Download the `vanilla-config.jsonc` file from the releases.
 
