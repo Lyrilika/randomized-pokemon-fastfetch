@@ -8,7 +8,7 @@ This repository is mainly for my own personal use whenever I set up a new system
 
 The guide here is also available for anyone who wants to add randomized Pokémon to their Fastfetch or use my config.
 
-Keep in mind that this guide is **very simplified** and aimed at inexperienced users, so it may feel overly basic to some people.
+Keep in mind that this guide is **very simplified** and aimed at inexperienced users, so it may feel overly simple to some people.
 
 
 # Dependencies
