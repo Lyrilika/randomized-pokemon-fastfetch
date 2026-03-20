@@ -46,7 +46,7 @@ Optional (deleting the copied folder):
 ```bash
 sudo rm -rf ~/pokemon-colorscripts
 ``` 
-### Debian/Ubuntu
+### Debian/Debian-based (Ubuntu, Pop!_OS, Mint, Zorin, etc)
 
 ```bash
 sudo apt install fastfetch git
@@ -59,7 +59,7 @@ Optional (deleting the copied folder):
 sudo rm -rf ~/pokemon-colorscripts
 ```
 
-### OpenSUSE(Leap/Tumbleweed)
+### OpenSUSE (Leap/Tumbleweed)
 ```bash
 sudo zypper install fastfetch git
 git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
