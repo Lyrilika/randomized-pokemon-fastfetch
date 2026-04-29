@@ -1,5 +1,6 @@
 # Randomized Pokémon Fastfetch
-<img width="2558" height="1438" alt="image" src="https://github.com/user-attachments/assets/df055446-3e9c-4727-96b4-e04adece8a27" />
+<img width="2558" height="1438" alt="screenshot-2026-04-29_16 21 07" src="https://github.com/user-attachments/assets/c8f1528c-4e9f-49b1-9790-e12cc66858ec" />
+
 
 
 This is my personal Fastfetch configuration, customized to fit my preferences. It uses [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) to display a random Pokémon sprite as the logo. Feel free to use this config as-is or modify anything to suit your own preferences.
